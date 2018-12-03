@@ -3,6 +3,7 @@
   <div>
     <audio ref="audioHome" v-show="false" @ended="audioEnded" preload></audio>
     <img class="welcomeImg" v-if="welcomeData" src="../assets/0.jpg" alt="" srcset="" @click="welcomeHide" @load="playAudio">
+    <img  v-show="false" src="http://b.yangcoder.top/img/bg.jpg" >
   </div>
 </template>
 
